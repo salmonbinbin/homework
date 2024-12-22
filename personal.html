@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="title">个人中心</div>
+            <div class="nav-links">
+                <a href="change-password.html">修改密码</a>
+                <a href="index.html">回到首页</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <form id="personalForm" class="form-box">
+            <div class="form-item">
+                <label>用户名：</label>
+                <input type="text" name="username" readonly>
+            </div>
+            <div class="form-item">
+                <label>昵称：</label>
+                <input type="text" name="nickname">
+            </div>
+            <div class="form-item">
+                <label>性别：</label>
+                <select name="gender">
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label>年龄：</label>
+                <input type="number" name="age" min="1" max="120">
+            </div>
+            <div class="form-item">
+                <button type="submit">确认修改</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="相关资料/lib/axios.min.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/personal.js"></script>
+</body>
+</html> 

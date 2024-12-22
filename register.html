@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="title">注册页面</div>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <form id="registerForm" class="form-box">
+            <div class="form-item">
+                <label>用户名：</label>
+                <input type="text" name="username" placeholder="请输入用户名">
+            </div>
+            <div class="form-item">
+                <label>密码：</label>
+                <input type="password" name="password" placeholder="请输入密码">
+            </div>
+            <div class="form-item">
+                <label>确认密码：</label>
+                <input type="password" name="rpassword" placeholder="请再次输入密码">
+            </div>
+            <div class="form-item">
+                <label>昵称：</label>
+                <input type="text" name="nickname" placeholder="请输入昵称">
+            </div>
+            <div class="form-item">
+                <span>已有账号，</span>
+                <a href="login.html" class="link-btn">直接登录</a>
+            </div>
+            <div class="form-item">
+                <button type="submit">注册</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="相关资料/lib/axios.min.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+</html> 

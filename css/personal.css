@@ -1,0 +1,62 @@
+.personal-container {
+    padding: 30px 0;
+}
+
+.personal-box {
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.personal-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-item label {
+    width: 80px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.form-item input,
+.form-item select {
+    flex: 1;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-item input[readonly] {
+    background: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.form-item button {
+    width: 120px;
+    height: 40px;
+    margin-left: 95px;
+    background: #e4393c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.change-pwd {
+    margin-left: 20px;
+    color: #666;
+    text-decoration: none;
+} 

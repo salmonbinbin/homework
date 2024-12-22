@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/goods.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="title">商品列表</div>
+            <div class="nav-links">
+                <a href="index.html">回到首页</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 商品列表 -->
+    <div class="container">
+        <div class="goods-list"></div>
+        
+        <!-- 分页器 -->
+        <div class="pagination">
+            <button class="first-page">首页</button>
+            <button class="prev-page">上一页</button>
+            <span class="page-info">
+                第<span class="current-page">1</span>页 / 共<span class="total-pages">1</span>页
+            </span>
+            <button class="next-page">下一页</button>
+            <button class="last-page">尾页</button>
+            <div class="page-size">
+                每页显示：
+                <select class="page-size-select">
+                    <option value="8">8条</option>
+                    <option value="12">12条</option>
+                    <option value="16">16条</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="相关资料/lib/axios.min.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/goods-list.js"></script>
+</body>
+</html> 

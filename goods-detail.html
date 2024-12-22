@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/goods-detail.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="title">商品详情</div>
+            <div class="nav-links">
+                <a href="goods-list.html">返回列表</a>
+                <a href="index.html">回到首页</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 商品详情 -->
+    <div class="container">
+        <div class="goods-detail">
+            <div class="goods-image">
+                <img src="" alt="商品图片">
+            </div>
+            <div class="goods-info">
+                <h1 class="goods-title"></h1>
+                <div class="goods-price">
+                    <span class="current-price"></span>
+                    <span class="original-price"></span>
+                    <span class="sale-type"></span>
+                </div>
+                <div class="goods-base-info">
+                    <p>商品分类：<span class="category"></span></p>
+                    <p>库存数量：<span class="number"></span></p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 商品详细介绍 -->
+        <div class="goods-introduce">
+            <h2>商品详情</h2>
+            <div class="introduce-content"></div>
+        </div>
+    </div>
+
+    <script src="相关资料/lib/axios.min.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/goods-detail.js"></script>
+</body>
+</html> 
